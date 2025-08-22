@@ -7,12 +7,12 @@ export const Route = createLazyFileRoute("/")({
 function Index() {
   return (
     <div className="p-2">
-      <h3>Welcome Home!</h3>
+      <h3>Welcome to Tanstack Router Demo!</h3>
       <Link
         to="/search"
         search={{
           limit: 10,
-          query: "atharva deosthale",
+          query: "Sawali Khanke",
         }}
       >
         Search something

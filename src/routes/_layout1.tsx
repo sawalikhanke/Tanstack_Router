@@ -7,7 +7,7 @@ export const Route = createFileRoute("/_layout1")({
 export default function Layout1() {
   return (
     <div>
-      _layout1
+        I am Sawali Khanke - Frontend Developer
       <div>
         <Outlet />
       </div>
